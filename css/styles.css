@@ -80,6 +80,17 @@ h1 {
 }
 
 /**********************************
+            SPONSORS
+**********************************/
+.sponsor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-left: 5%;
+}
+
+/**********************************
             FOOTER
 **********************************/
 .foot {
